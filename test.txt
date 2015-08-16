@@ -1,0 +1,25 @@
+//首先新建一个仓库也就是工程，名字叫name
+//本地新建一个文件夹name,
+cd name
+touch test.txt
+git add test.txt
+git commit -m "注释"
+
+
+
+
+ssh –t git@github.com 
+git remote add origin git@github.com:/helloletitgo/name
+git push -u origin master
+
+
+
+
+git config --global user.name  helloletitgo
+git config --global user.email lcyenjoy@126.com 
+
+
+ssh-keygen -t rsa -C "your_email@youremail.com" 
+ssh –t git@github.com 
+
+
